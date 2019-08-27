@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+img {
+  display: block;
+  width: 100%; }
+
+li {
+  list-style: none;
+  display: inline-flex; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+#present-page {
+  border-bottom: 2px solid black; }
+
+#body-bg {
+  background: linear-gradient(to bottom, rgba(149, 149, 149, 0.3) 0, rgba(127, 124, 124, 0.85) 13%, #0f0e0e 100%);
+  text-align: center; }
+  #body-bg ul > li > a {
+    color: #fcf2f2;
+    text-shadow: 2px 1px 4px #2d0d0d; }
+    #body-bg ul > li > a:hover {
+      border-bottom: 2px solid #fcf2f2; }
+  #body-bg #present-page {
+    border-bottom: 2px solid #fcf2f2; }
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 80px; }
+  nav ul {
+    display: block;
+    text-align: center; }
+    nav ul li {
+      padding: 20px; }
+      nav ul li a {
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        color: #000;
+        transition: transform .2s;
+        text-shadow: 1px 1px 3px #8c5353; }
+        nav ul li a:hover {
+          border-bottom: 2px solid black;
+          transform: scale(1.5); }
+
+/*Header-End*/
+/*Home*/
+#home {
+  background: lightblue url("../images/image (6).jpeg") no-repeat center;
+  background-size: cover; }
+  @media only screen and (max-width: 420px) {
+    #home {
+      background-position: 18%; } }
+
+/*caurosel*/
+.slider-section {
+  max-width: 60%;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 20px groove #fff3dc; }
+  @media only screen and (max-width: 420px) {
+    .slider-section {
+      max-width: 100%;
+      border: 6px solid #f1ebe0;
+      margin: 10px 0 30px; } }
+
+/*Home-End*/
+/*gallery*/
+.gallery {
+  /*	background: linear-gradient(180deg, #ffffff, #534b4b);
+  */ }
+  .gallery h2 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #181878;
+    background: linear-gradient(46deg, white, transparent); }
+  .gallery ul {
+    background: #dfdede;
+    margin-bottom: 100px; }
+    @media only screen and (max-width: 420px) {
+      .gallery ul li {
+        display: block; } }
+    .gallery ul li img {
+      padding: 20px;
+      width: 33%;
+      height: 350px;
+      border: 2px solid #2f5efe;
+      margin: 6px 2px 2px;
+      background: #fff5f5; }
+      @media only screen and (max-width: 420px) {
+        .gallery ul li img {
+          width: 98%; } }
+      .gallery ul li img:hover {
+        border: 5px solid #0595f6;
+        padding: 0; }
+
+/*Gallery-End*/
+/*Services*/
+.content {
+  text-align: center;
+  padding: 20px;
+  background: -webkit-radial-gradient(center, ellipse cover, white 0%, rgba(255, 255, 255, 0.84) 93%, rgba(255, 255, 255, 0.02) 96%, white 98%, rgba(255, 255, 255, 0.04) 100%); }
+  .content h1, .content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px; }
+    .content h1:hover, .content h2:hover {
+      text-decoration: underline; }
+  .content p {
+    padding: 20px 0 10px;
+    line-height: 1.2em;
+    text-align: center; }
+    .content p:last-child {
+      padding-bottom: 50px; }
+
+/*Services-End*/
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 5%;
+  color: #e3bb70;
+  font-size: 15px; }
+  footer h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-shadow: 4px 2px #663604; }
+  footer p {
+    padding: 10px 0;
+    text-align: center; }
+    @media only screen and (max-width: 420px) {
+      footer p span {
+        display: block; } }
+  @media only screen and (max-width: 420px) {
+    footer {
+      padding: 18% 0; }
+      footer h3 {
+        font-size: 20px; } }
+
+#dot:before, #dot:after {
+  content: ".";
+  font-size: 58px;
+  border-radius: 50%;
+  font-family: auto;
+  padding: 0px 5px; }
+
+/*Footer-End*/
+/*fa*/
+.fa {
+  padding: 15px;
+  margin: 20px 5px 0;
+  font-size: 26px !important;
+  border-radius: 47%;
+  background: #f8e7c9e6;
+  color: #3c2303fa !important;
+  text-shadow: none !important; }
+  .fa:hover {
+    background: #271e0f;
+    color: #FFE0B2 !important;
+    border-bottom: none !important; }
+
+.fa-facebook {
+  padding: 15px 18px; }
+
+iframe {
+  width: 100%;
+  min-height: 90% !important;
+  height: 340px;
+  border: 20px solid #5c3807;
+  margin-top: 50px; }
+
+.contact h2 {
+  color: #ab0000; }
+
+/*# sourceMappingURL=output.css.map */
