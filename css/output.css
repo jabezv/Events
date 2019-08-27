@@ -66,7 +66,7 @@ nav {
 /*Header-End*/
 /*Home*/
 #home {
-  background: lightblue url("../images/image (6).jpeg") no-repeat center;
+  background: lightblue url("../img/image (6).jpeg") no-repeat center;
   background-size: cover; }
   @media only screen and (max-width: 420px) {
     #home {
