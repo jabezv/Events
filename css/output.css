@@ -155,7 +155,8 @@ footer {
         display: block; } }
   @media only screen and (max-width: 420px) {
     footer {
-      padding: 18% 0; }
+      padding: 18% 0;
+      font-size:12px; }
       footer h3 {
         font-size: 20px; } }
 
