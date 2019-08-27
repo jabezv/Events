@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- title -->
+	<title>Lakshmi Interior | Home</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/output.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="home">
+	<header>
+		<div class="container header">
+			<a href="index.html">
+				<img src="images/logo.png">
+			</a>
+		</div>
+		<nav>						
+				<ul>
+					<li><a id="present-page" href="index.html">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</nav>
+	</header>
+	<!-- carousel -->
+	<div class="slider-section">
+	  <img class="mySlides" src="images/img-1.jpg" alt="Modular-kitchen">
+	  <img class="mySlides" src="images/img-2.jpg" alt="Bedroom">
+	  <img class="mySlides" src="images/img-3.jpg" alt="Open kitchen">
+	  <img class="mySlides" src="images/img-4.jpg" alt="Living room">
+	  <img class="mySlides" src="images/img-5.jpg" alt="Bedroom">
+	  <img class="mySlides" src="images/img-6.jpg" alt="Wall roof">
+	  <img class="mySlides" src="images/img-7.jpeg" alt="Interior kitchen">
+	</div>
+	<footer id="body-bg">	
+		<div class="container">
+			<h2><em>Lakshmi Interior</em></h2>
+			<h3>Contact : XXX-XXX-XXX</h3>
+			<ul>
+				<li><a target="_blank" href="https://www.facebook.com/lakshmiinteriordesign/" class="fa fa-facebook"></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/lakshmiinteriordesign/" class="fa fa-instagram"></a></li>
+				<li><a href="lakshmiinteriordesign@gmail.com" class="fa fa-google"></a></li>
+			</ul>
+			<span id="dot">NAYANDHALLI &nbsp; BENGALURU 560039 &nbsp; INDIA</span> 
+			<p> &copy; 2019&nbsp; Lakshmi Interior &nbsp;All Rights Reserved. </p>
+		</div>
+	</footer>
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+	</script>
+</body>
