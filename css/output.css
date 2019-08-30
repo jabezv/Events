@@ -174,17 +174,26 @@ footer {
   margin: 20px 5px 0;
   font-size: 26px !important;
   border-radius: 47%;
-  background: #f8e7c9e6;
-  color: #3c2303fa !important;
-  text-shadow: none !important; }
-  .fa:hover {
-    background: #271e0f;
-    color: #FFE0B2 !important;
-    border-bottom: none !important; }
-
+  color: #fff;
+  text-shadow: none !important;
+}
+.fa:hover {
+  transform: scale(1.05);
+  border: none !important;
+}
 .fa-facebook {
-  padding: 15px 18px; }
-
+  padding: 15px 18px;
+  background: #3B5998;
+}
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.fa-at {
+  background: #4c0909;
+}
+.fa-whatsapp {
+  background: #00E676;
+}
 iframe {
   width: 100%;
   min-height: 90% !important;
