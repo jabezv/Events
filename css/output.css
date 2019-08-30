@@ -36,7 +36,8 @@ a {
       border-bottom: 2px solid #fcf2f2; }
   #body-bg #present-page {
     border-bottom: 2px solid #fcf2f2; }
-#body-bg h3>a{color: #e3bb70;}
+#body-bg h3 > a {
+  color: #e3bb70; }
 
 /*Header*/
 .header {
