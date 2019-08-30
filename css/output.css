@@ -24,7 +24,7 @@ a {
   margin: 0 auto; }
 
 #present-page {
-  border-bottom: 2px solid black; }
+    border-bottom: 2px solid #fcf2f2; }
 
 #body-bg {
   background: linear-gradient(to bottom, rgba(149, 149, 149, 0.3) 0, rgba(127, 124, 124, 0.85) 13%, #0f0e0e 100%);
@@ -34,8 +34,6 @@ a {
     text-shadow: 2px 1px 4px #2d0d0d; }
     #body-bg ul > li > a:hover {
       border-bottom: 2px solid #fcf2f2; }
-  #body-bg #present-page {
-    border-bottom: 2px solid #fcf2f2; }
 #body-bg h3 > a {
   color: #e3bb70; }
 
