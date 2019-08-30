@@ -79,11 +79,11 @@ nav {
   max-width: 60%;
   margin: 0 auto;
   background: #ffffff;
-  border: 20px groove #fff3dc; }
+  border: 20px ridge #66635d; }
   @media only screen and (max-width: 420px) {
     .slider-section {
       max-width: 100%;
-      border: 6px solid #f1ebe0;
+      border: 10px ridge #66635d;;
       margin: 10px 0 30px; } }
 
 /*Home-End*/
