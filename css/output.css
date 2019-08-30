@@ -79,11 +79,11 @@ nav {
   max-width: 60%;
   margin: 0 auto;
   background: #ffffff;
-  border: 20px ridge #66635d; }
+  border: 12px ridge #4b4437 }
   @media only screen and (max-width: 420px) {
     .slider-section {
       max-width: 100%;
-      border: 10px ridge #66635d;;
+      border: 8px ridge #66635d;;
       margin: 10px 0 30px; } }
 
 /*Home-End*/
@@ -148,7 +148,7 @@ footer {
   footer h2 {
     font-size: 30px;
     padding-bottom: 15px;
-    text-shadow: 4px 2px #663604; }
+    text-shadow: 2px 1px #663604; }
   footer p {
     padding: 10px 0;
     text-align: center; }
