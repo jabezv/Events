@@ -70,7 +70,7 @@ nav {
     font-size:18px;}
   font-size:20px;
 header img {
-    width: 150px;
+    width: 100px;
 }
 }
 
@@ -170,7 +170,10 @@ footer {
       padding: 18% 0;
       font-size:12px; }
       footer h3 {
-        font-size: 20px; } }
+        font-size: 20px; } 
+    footer h2 {
+    font-size: 24px;
+}
 
 #dot:before, #dot:after {
   content: ".";
@@ -205,6 +208,11 @@ footer {
 }
 .fa-whatsapp {
   background: #00E676;
+}
+@media only screen and (max-width: 420px) {
+  .fa{
+      font-size: 20px !important;
+  }
 }
 iframe {
   width: 100%;
