@@ -42,7 +42,7 @@ a {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-  linear-gradient(to right, rgba(52, 24, 7, 1) 0%,rgb(14, 7, 2) 30%,rgba(14, 7, 2) 70%,rgba(53, 24, 7, 1) 100%)
+  linear-gradient(to right, rgba(52, 24, 7, 1) 0%,rgb(14, 7, 2) 30%,rgba(14, 7, 2) 70%,rgba(53, 24, 7, 1) 100%);
 }
 header img {
     width: 150px;
