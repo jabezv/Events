@@ -41,7 +41,12 @@ a {
 .header {
   display: flex;
   justify-content: space-around;
-  padding-top: 20px; }
+  padding-top: 20px;
+background: linear-gradient(to right, rgba(52, 24, 7, 0) 42%,rgb(14, 7, 2) 45%,rgba(14, 7, 2) 55%,rgba(53, 24, 7, 0) 58%,rgba(66,24,0,0) 100%);
+}
+.gallery-header{
+    background: linear-gradient(to right, rgba(52, 24, 7, 0) 5%,rgb(14, 7, 2) 45%,rgba(14, 7, 2) 55%,rgba(53, 24, 7, 0) 95%,rgba(66,24,0,0) 100%);
+}
 header img {
     width: 150px;
 }
