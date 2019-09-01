@@ -51,7 +51,6 @@ nav {
   display: flex;
   justify-content: space-around;
  margin: 20px auto 80px; 
-/* background: linear-gradient(to right, rgba(52, 24, 7, 0) 5%,rgb(14, 7, 2,0) 20%,rgb(14, 7, 2) 21%,rgba(14, 7, 2) 79%,rgba(14, 7, 2,0) 80%,rgba(53, 24, 7, 0) 100%); */
 }
   nav ul {
     display: block;
