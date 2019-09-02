@@ -68,22 +68,20 @@ header img {
 }
 
 .header-social {
-  right: 0%;
-  position: fixed;
-  top: 25%;
-}
-.header-social ul, .header-social li {
-  display: block !important;
+  display: none;
 }
 @media only screen and (max-width : 770px) {
   .header-social {
     right: 0%;
     position: fixed;
-    top: 20%;
+    top: 8%;
+    display: block !important;
   }
-  .header-social h3 {
-    display: none;
-  }
+}
+.header-social .fa {
+  padding: 12px;
+  margin: 12px 6px 0;
+  font-size: 22px !important;
 }
 
 .header {
@@ -92,23 +90,8 @@ header img {
   padding-top: 20px;
   background: linear-gradient(to right, #341807 0%, #0e0702 30%, #0e0702 70%, #351807 100%);
 }
-.header h3 {
-  color: #f5d2b7;
-  padding-left: 10px;
-}
-.header a[href^=tel] {
-  color: #f5d2b7;
-}
 .header ul {
   display: inline-block;
-}
-.header .fa {
-  padding: 12px;
-  margin: 12px 6px 0;
-  font-size: 22px !important;
-}
-.header .fa-facebook {
-  padding: 10px 13px;
 }
 
 nav {
@@ -131,7 +114,7 @@ nav ul li {
 }
 @media only screen and (max-width : 770px) {
   nav ul li {
-    padding: 10px 18px;
+    padding: 10px 20px;
   }
 }
 nav ul li a {
@@ -376,7 +359,7 @@ footer p {
 .fa-phone {
   background: #df8205;
 }
-/*Footer-End*/
+
 iframe {
   width: 100%;
   min-height: 90% !important;
@@ -391,6 +374,6 @@ iframe {
   }
 }
 
-
+/*Footer-End*/
 
 /*# sourceMappingURL=output.css.map */
